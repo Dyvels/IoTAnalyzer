@@ -305,8 +305,6 @@ def end(start):
 def main():
     start = startTimer()                                                                                                #creates a timestamp for the startingtime
     # filename = input("Please enter the name of the pcap file: ")                                                      #to enter the filename during runtime
-    filename = 'withings_monitor_merge.pcap'
-    #filename = 'camera.pcap'
     packets = loadfile(filename)                                        #holds the data of pcap file
     locationSet = set()                                                 #creates an empty set to increase readability, this set will contain all IPs
 
@@ -321,7 +319,7 @@ def main():
     print("Overview of all used Ports and call amounts: ", sortedPortDictionary)
     print("Overview of origin and destination IPs: ", ipDictionary)
     print("Overview of IPs and their geolocation: ", locationDictionary)
-    #print("Overview of IPs their send cleartext and the destination IP: ", cleartextDictionary)
+    print("Overview of IPs their send cleartext and the destination IP: ", cleartextDictionary)
     print("Overview of IPs their destination and the average entropy: ", entropyDictionary)
     end(start)
 
