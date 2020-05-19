@@ -1,16 +1,16 @@
 # IoT Network Analyzer
 
-This tool is a prototype which is developed during the research paper 'IoT network traffic analysis: opportunities and challenges for forensic investigators?'
+This tool is a prototype which is developed during the research paper 'IoT network traffic analysis: opportunities and challenges for forensic investigators?'. The tool provides further forensic components to analyze recorded network trafic (*.pcap files) which enables the user to investigate the behaviour of IOT-devices.
 
 ## Authors of the Research Paper
 
 * <b>Tina Wu</b> - University of Oxford (Corresponding author)<sup><a id="anker1" title="Department of Computer Science University of Oxford Parks Road, Oxford, UK" href="#fn1">[1]</a></sup>
-* [Frank Breitlinger](http://www.FBreitinger.deg/) - University of Liechtenstein<sup><a id="anker2" title="Hilti Chair for Data and Application Security Institute of Information Systems University of Liechtenstein, Fürst-Franz-Josef-Strasse, 9490 Vaduz, Liechtenstein" href="#fn1">[2]</a></sup> 
+* [Frank Breitlinger](http://www.FBreitinger.de/) - University of Liechtenstein<sup><a id="anker2" title="Hilti Chair for Data and Application Security Institute of Information Systems University of Liechtenstein, Fürst-Franz-Josef-Strasse, 9490 Vaduz, Liechtenstein" href="#fn1">[2]</a></sup> 
 * <b>Stephen Niemann</b> - University of Liechtenstein<sup><a id="anker2" title="Hilti Chair for Data and Application Security Institute of Information Systems University of Liechtenstein, Fürst-Franz-Josef-Strasse, 9490 Vaduz, Liechtenstein" href="#fn1">[2]</a></sup> 
 
 ### Introduction
 Although our results can be found using separate open source tools,  it  would  require  an  investigator  considerable  amount
-of  time  to  manually  extract  the  data. This is the reason why built this tool to automate the steps in order to make the anylzation process more effective. The IoT Network Analyzer takes a PCAP file as an input to allow further investigation.
+of  time  to  manually  extract  the  data. This is the reason why we built this tool to automate the steps in order to make the anylzation process more effective. The IoT Network Analyzer takes a PCAP file as an input to allow further investigation.
 
 The following features are currently implemented:
 * creation of a port whitelist based on provided input
