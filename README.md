@@ -21,5 +21,55 @@ The following features are currently implemented:
 * overview of sent cleartext with the corresponding origin and destination IP adresses
 * overview of IP adresses with their destination adresses and the average entropy
 
+### Usage
+The tool has an integrated command line support based on cmd2.
+To get started with the tool on the CLI the user needs first to launch the actual file after installing the necessary requirements.
+The tool has currently two major commands:
+```python
+> load -f *FILENAME*
+```
+load takes a filename as an argument which will be used to import the given file. It will directly start to analyze the given data.
+
+```
+analyze
+```
+analyze is then the fundamental command to start investigating the actual file. Analyze has several attributes:
+
+**Overview of all used Ports and call amounts:**
+```python 
+analyze -po
+```
+
+**Overview of all established connections:**
+```python
+analyze -cn
+```
+
+**Overview of all recoreded IPs (origin & destination):**
+```python
+analyze -ips
+```
+
+**all IPs and their geolocation informations:**
+```python
+analyze -g
+```
+
+**Overview of IPs their send utf-8 cleartext and the destination IP:**
+``` python
+analyze -ct
+```
+
+**Overview of IPs their destination and the average entropy:**
+``` python
+>analyze -e
+```
+
+**Overview of the analyzed packets:**
+``` python
+>analyze -pa
+```
+
+
 ### Outlook
-The tool will be further developed during the research project, based on occuring demand of features. Next steps are to improve the functionalities of the CLI like finding all entries for a specific IP
+The tool will be further developed during the research project, based on occuring demand of features. Next steps are to improve the functionalities of the CLI like finding all entries for a specific IP and the implementation of output commands.
