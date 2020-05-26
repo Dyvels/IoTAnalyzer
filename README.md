@@ -22,4 +22,4 @@ The following features are currently implemented:
 * overview of IP adresses with their destination adresses and the average entropy
 
 ### Outlook
-The tool will be further developed during the research project, based on occuring demand of features. Next steps are to implement a CLI.
+The tool will be further developed during the research project, based on occuring demand of features. Next steps are to improve the functionalities of the CLI like finding all entries for a specific IP
