@@ -78,4 +78,4 @@ analyze -pa > test.txt
 They same approach can be adapted to all other commands. Further informations can be found here: https://cmd2.readthedocs.io/en/latest/features/redirection.html#output-redirection-and-pipes
 
 ### Outlook
-The tool will be further developed during the research project, based on occuring demand of features. Next steps are to improve the functionalities of the CLI like finding all entries for a specific IP and the implementation of output commands.
+The tool will be further developed during the research project, based on occuring demand of features. Next steps are to improve the functionalities of the CLI like finding all entries for a specific IP.
